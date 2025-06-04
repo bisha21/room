@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import io from 'socket.io-client';
 import ChatRoom from './ChatApp';
-const socket = io.connect('https://room-vb96.onrender.com/');
+const socket = io.connect('https://room-vb96.onrender.com');
 
 const App = () => {
   const [username, setUsername] = useState('');
